@@ -1,0 +1,6 @@
+Name = input("Enter name : ")
+Age = int(input("Enter age : "))
+Weight = float(input("Enter weight : "))
+print("My Name is :",Name)
+print("My age is : ",Age)
+print("My weight is : ",Weight)
