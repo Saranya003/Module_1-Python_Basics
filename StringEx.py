@@ -50,3 +50,7 @@ print(d.casefold())
 #Escape characters
 print("We are \"VIKINGS\" of the north")
 
+#sort
+sortedWord = sorted(d)
+print(sortedWord)
+
