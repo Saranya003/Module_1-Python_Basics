@@ -3,13 +3,13 @@ def testfunc1():
     print("This is Salman")
 
 # Passing a single argument / paramaterized method
-def testfunc2(x):
-    print(x+" World!")
-
+def testfunc2(z):
+    print(z+" World!")
+z="Sameera"
 # Passing a single argument / paramaterized method
 def testfunc3(x,y):
     print(x+" "+y)
-
-testfunc2("Hello")
+x="Salman"
+testfunc2(z)
 testfunc1()
-testfunc3("Welcome to","Chennai!")
+testfunc3(x,"Chennai!")
